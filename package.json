@@ -1,0 +1,44 @@
+{
+  "name": "work4rest",
+  "version": "0.1.0",
+  "description": "Hourglass which helps you to deserve time for rest by working. The more you work - the more you can rest. Efficient to use for stress-free home time spending, having a lot of rest, while also having some work done.",
+  "main": "index.js",
+  "devDependencies": {
+    "enzyme": "^2.5.1",
+    "react-addons-test-utils": "^15.3.2",
+    "react-scripts": "0.7.0"
+  },
+  "dependencies": {
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Scorpibear/work4rest.git"
+  },
+  "keywords": [
+    "productivity",
+    "time",
+    "time management",
+    "efficiency",
+    "balance",
+    "work",
+    "life",
+    "rest"
+  ],
+  "author": "Mikhail Subach",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Scorpibear/work4rest/issues"
+  },
+  "homepage": "https://github.com/Scorpibear/work4rest#readme",
+  "eslintConfig": {
+    "extends": "react-app"
+  }
+}
