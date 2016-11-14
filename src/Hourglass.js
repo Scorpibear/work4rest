@@ -1,10 +1,16 @@
 import React, { Component } from 'react';
 import SandTimer from './SandTimer';
+import './Hourglass.css';
 
 class Hourglass extends Component {
   render() {
     return (
-      <canvas id={this.props.id} width="400" height="320">Canvas not supported</canvas>
+      <div id="hourglass">
+        <canvas id={this.props.id} width="400" height="320">Canvas not supported</canvas>
+        <div>
+          <button>Start</button>
+        </div>
+      </div>
     )
   }
   componentDidMount() {
