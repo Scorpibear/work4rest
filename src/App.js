@@ -9,7 +9,7 @@ class App extends Component {
         <div className="App-header">
           <h2>Deserve time for rest by work</h2>
         </div>
-        <Hourglass id="hourglass" />
+        <Hourglass id="{hourglass}" />
       </div>
     );
     return html;
