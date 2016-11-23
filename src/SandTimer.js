@@ -251,8 +251,8 @@ class SandTimer extends Component {
     if (this.drawSandParticles() === false) {
       setTimeout(() => this.animate(), 100);
     }
-  } 
-  start() {
+  }
+  init() {
     // Grab the canvas element
     this.canvas = document.getElementById(this.id);
     // Canvas supported?
@@ -264,10 +264,18 @@ class SandTimer extends Component {
         this.sand_timer.onload = () => {
             this.initBoundary();
             this.initSand();
-            this.animate();
+            this.drawBackground();
         };
     } else {
         alert("Canvas not supported!");
+    }
+  } 
+  start() {
+    if(this.canvas) {
+      this.initSand();
+      this.iFirstRowOfSand = 159; 
+      this.iNilMoveCounter = 0;
+      this.animate();
     }
   }
 }

@@ -4,5 +4,6 @@ import SandTimer from './SandTimer';
 
 it('SandTimer starts without errors', () => {
   let sandTimer = new SandTimer();
+  sandTimer.init();
   sandTimer.start();
 });
